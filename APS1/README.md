@@ -1,12 +1,12 @@
-## Atividade Prática Supervisionada nº 1
+# Atividade Prática Supervisionada nº 1
 
-# Objetivos da atividade
+## Objetivos da atividade
 
 - Consolidar os conhecimentos em HTML e CSS.
 - Desenvolver a lógica de estruturação e estilização de páginas web.
 - Estimular a criatividade e a resolução de problemas.
 
-# Requisitos
+## Requisitos
 
 Estrutura clara e organizada, com:
 - Cabeçalho. 
@@ -14,11 +14,11 @@ Estrutura clara e organizada, com:
 - Área de conteúdo.
 - 6 páginas de conteúdo.
 
-# Recursos 
+## Recursos 
 
 - HTML
 - CSS
 
-# Screenshots desktop mode
+## Screenshots desktop mode
 
-# Screenshots mobile mode
+## Screenshots mobile mode
