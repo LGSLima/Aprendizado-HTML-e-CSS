@@ -1,12 +1,10 @@
 body {
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -26,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    height: 100px;
+    height: auto;
     align-items: center;
 }
 
@@ -34,28 +32,23 @@ header {
     margin-left: 700px;
 }
 
-#res{
+#layout {
+    flex-grow: 1;
+    height: 800px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    background-color: bisque;
-    width: 1000px;
-    height: 500px;
+    align-items: center;
+}
+
+#res {
+    background-color: brown;
+    width: 800px;
+    height: 600px;
 }
 
 #res2 {
-    background-color: lightgray;
-    height: 500px;
-    width: 100%;
-}
-
-#res3 {
-    background-color: rgb(146, 12, 12);
-    height: 500px;
-    width: 100%;
-}
-
-footer {
     width: 100%;
     height: 250px;
-    background-color: rgb(17, 17, 83);
+    background-color: rgb(24, 24, 139);
 }

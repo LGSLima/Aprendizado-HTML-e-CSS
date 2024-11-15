@@ -50,6 +50,6 @@ header {
 
 #res2 {
     height: 250px;
-    min-width: 1920px;
+    width: 100%;
     background-color: rgb(24, 24, 139);
 }
