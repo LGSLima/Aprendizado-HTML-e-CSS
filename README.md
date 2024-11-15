@@ -1,6 +1,6 @@
-## Aprendizado HTML e CSS
+# Aprendizado HTML e CSS
 
-# Tecnologias Aprendidas
+## Tecnologias Aprendidas
 
     -
     -
