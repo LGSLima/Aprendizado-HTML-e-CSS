@@ -52,12 +52,6 @@ header {
     gap: 20px;
 }
 
-#res2 {
-    height: 250px;
-    width: 100%;
-    background-color: rgb(24, 24, 139);
-}
-
 #mo {
     background-color: black;
     height: 600px;
@@ -68,4 +62,10 @@ header {
     background-color: green;
     height: 600px;
     width: 700px;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(24, 24, 139);
 }
