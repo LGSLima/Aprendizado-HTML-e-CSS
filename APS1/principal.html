@@ -9,11 +9,13 @@
 <body>
     <header>
             <section>
-                <article id="menuTopo">
-                    <div><a href="principal.html"><img src="cinetupi-logo.png" id="menuLogo"></a></div>
-                    <div class="menuNav"><a href="catalogo.html">Catálogo</a></div>
-                    <div class="menuNav"><a href="perfil.html">Perfil</a></div>
-                    <div class="menuNav"><a href="temas.html">Temas</a></div>
+                <article>
+                    <div id="container-menu">
+                        <a href="principal.html"><img src="cinetupi-logo.png" id="topologo"></a>
+                        <div class="menuNav"><a href="catalogo.html">Catálogo</a></div>
+                        <div class="menuNav"><a href="perfil.html">Perfil</a></div>
+                        <div class="menuNav"><a href="temas.html">Temas</a></div>
+                    </div>
                     <div id="botaoLogin"><a href="login.html">Login</a></div>
                 </article>
             </section>
@@ -21,27 +23,81 @@
     <main id="container">
         <section>
             <article>
-                <div id="apresentacao"></div>
-                <div id="textApre">A plataforma de filmes <br>totalmente <span id="estiloText">brasileira</span>, com<br> o maior acervo  nacional.</div>
-                <div></div>
-                <div></div>
+                <div class="apresentacao-container">
+                    <div id="apresentacao"></div>
+                    <div id="textApre">A plataforma de filmes <br>e series totalmente <span id="estiloText">brasileira</span>, <br>com o maior acervo  nacional.</p></div>
+                    <div id="nota"><p>Faça já seu cadastro e aproveite nosso catálogo<br> com mais de 1000 filmes e series.</p></div>
+                    <div id="botaoCadastro"><a href="cadastro.html">Cadastre-se</a></div>
+                </div>
             </article>
         </section>
-        <section >
-            <article>
-                <div id="res2">elementos</div>
+        <section id="sobre">
+            <article class="sobre-container">
+                <div id="textSobre">
+                    <a href="principal.html"><img src="cinetupi-logo.png" id="logosobre"></a>
+                    <p >Somos plataforma de streaming 100% brasileira, <br>dedicada a filmes, séries e documentários nacionais. <br>Com foco na valorização da cultura e dos talentos locais, <br>promove histórias autênticas e fortalece a indústria audiovisual do país.<br><br> <span id="textsobre2">Confira nosso catálogo.</span></p>
+                    <div id="botaoCatalogo"><a href="catalogo.html">Catálogo</a></div>
+                </div>
+                <div class="imagensSobre">
+                    <img src="cartaz-sobre1.jpg" id="cartaz1">,
+                    <img src="cartaz-sobre2.jpg" id="cartaz2">
+                    <img src="cartaz-sobre3.jpg" id="cartaz3">
+                    <img src="cartaz-sobre4.jpg" id="cartaz4">
+                </div>
             </article>
         </section>
-        <section >
-            <article id="res3">
-                <div>elementos</div>
+        <section id="planos">
+            <article class="planos-container">
+                <div><img src="fundo-planos.jpg" id="fundo-planos"></div>
+                <p>Planos de <scan>Assinaturas</scan></p>
+                <div id="plano1">
+                    <div><p2>Plano Mensal</p></div>
+                    <div>
+                        <ul>
+                            <li>4 Telas disponíveis</li>
+                            <li>Sem anúncios</li>
+                            <li>Assista em todo o Brasil</li>
+                            <li>Cancele quando quiser</li>
+                        </ul>
+                    </div>
+                    <div><p3>R$ 19,99/mês</p></div>
+                </div>
+                <div id="plano2">
+                    <div><p2>Plano Anual</p></div>
+                    <div>
+                        <ul>
+                            <li>Econimize 20%</li>
+                            <li>5 Telas disponíveis</li>
+                            <li>Sem anúncios</li>
+                            <li>Assista em todo o Brasil</li>
+                            <li>Cancele quando quiser</li>
+                        </ul>
+                    </div>
+                    <div><p3>R$ 191,90/ano</p></div>
+                </div>
+                <div id="plano3">
+                    <div><p2>Plano Presente<br><scan>(anual)</scan></p></div>
+                    <div>
+                        <ul>
+                            <li>Econimize 20%</li>
+                            <li>5 Telas disponíveis</li>
+                            <li>Sem anúncios</li>
+                            <li>Assista em todo o Brasil</li>
+                            <li>Cancele quando quiser</li>
+                        </ul>
+                    </div>
+                    <div><p3>R$ 191,90/ano</p></div>
+                </div>
             </article>
         </section>
     </main>
     <footer>
         <section>
-            <article>
-                <div>elementos</div>
+            <article class="footer-container">
+                <img src="cinetupi-logo.png" id="logo">
+                <p>Seu espaço da Cultura Brasileira. Aproveite!</p>
+                <p2>&copy; CineTupi - Todos os direitos reservados.</p2>
+                <div id="botaoCadastrofooter"><a href="cadastro.html">Cadastre-se</a></div>
             </article>
         </section>
     </footer>
