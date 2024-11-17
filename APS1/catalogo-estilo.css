@@ -87,14 +87,14 @@ header {
 main {
     display: block;
     width: 100%;
-    height: auto;
+    height: 1050px;
 }
 
 .menu-container {
     position: relative;
     background-color: #252525;
     width: 300px;
-    height: 1000px;
+    height: 1050px;
     margin: 0;
     padding: 0;
 }
@@ -214,16 +214,15 @@ input[type="checkbox"] {
     font-weight: bold;
 }
 
-#catalogo-container {
+#cat-container{
+    overflow: scroll;
+    scroll-behavior: auto;
     position: absolute;
     left: 300px;
     top: 80px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #252525;
-    width: 1620px;
-    height: auto;
-    
+    width: 84%;
+    height: 116%;
+    background-color: #1a1a1a;
 }
 
 #filmCat1 {
@@ -234,7 +233,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo1.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 50px;
+    left: 100px;
     top: 30px;
 }
 
@@ -246,7 +245,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo2.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 400px;
+    left: 475px;
     top: 30px;
 }
 
@@ -258,7 +257,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo3.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 750px;
+    left: 850px;
     top: 30px;
 }
 
@@ -270,7 +269,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo4.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 1100px;
+    left: 1230px;
     top: 30px;
 }
 
@@ -282,7 +281,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo5.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 50px;
+    left: 100px;
     top: 480px;
 }
 
@@ -294,7 +293,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo6.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 400px;
+    left: 475px;
     top: 480px;
 }
 
@@ -306,7 +305,7 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo7.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 750px;
+    left: 850px;
     top: 480px;
 }
 
@@ -318,59 +317,59 @@ input[type="checkbox"] {
     background-image: url(filme-catalogo8.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 1100px;
+    left: 1230px;
     top: 480px;
 }
 
 #filmCat9 {
     position: absolute;
     width: 300px;
-    height: 90px;
+    height: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-image: url(filme-catalogo9.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 50px;
+    left: 100px;
     top: 930px;
 }
 
 #filmCat10 {
     position: absolute;
     width: 300px;
-    height: 90px;
+    height: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-image: url(filme-catalogo9.jpg);
+    background-image: url(filme-catalogo10.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 400px;
+    left: 475px;
     top: 930px;
 }
 
 #filmCat11 {
     position: absolute;
     width: 300px;
-    height: 90px;
+    height: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-image: url(filme-catalogo9.jpg);
+    background-image: url(filme-catalogo11.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 750px;
+    left: 850px;
     top: 930px;
 }
 
 #filmCat12 {
     position: absolute;
     width: 300px;
-    height: 90px;
+    height: 400px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-image: url(filme-catalogo9.jpg);
+    background-image: url(filme-catalogo12.jpg);
     background-size: 300px 400px;
     background-repeat: no-repeat;
-    left: 1100px;
+    left: 1230px;
     top: 930px;
 }
 
