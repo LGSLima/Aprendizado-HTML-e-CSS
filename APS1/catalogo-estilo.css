@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -24,6 +24,7 @@ header {
     height: 100px;
     z-index: 1000;
     padding: 0;
+    box-shadow: 0 4px 20px 0 black;
 }
 
 #topologo {
@@ -40,44 +41,10 @@ header {
     top: 40px;
 }
 
-#botaoPri a{
-    padding: 10px 70px;
-    margin: 0;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
-    color: white;
-    background-color: #252525;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#botaoPri a:hover {
-    background-color: #1a1a1a;
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
 #botaoDes {
     position: absolute;
     left: 1170px;
     top: 40px;
-}
-
-#botaoDes a{
-    padding: 10px 70px;
-    margin: 0;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
-    color: white;
-    background-color: #252525;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#botaoDes a:hover {
-    background-color: #1a1a1a;
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #botaoPer {
@@ -86,7 +53,7 @@ header {
     top: 40px;
 }
 
-#botaoPer a{
+.botao-menu a {
     padding: 10px 70px;
     margin: 0;
     font-weight: bold;
@@ -97,7 +64,7 @@ header {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-#botaoPer a:hover {
+.botao-menu a:hover {
     background-color: #1a1a1a;
     box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease, transform 0.3s ease;

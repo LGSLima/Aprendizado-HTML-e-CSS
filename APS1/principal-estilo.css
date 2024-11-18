@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -31,6 +31,7 @@ header {
     top: 0;
     z-index: 1000;
     padding: 0;
+    box-shadow: 0 4px 20px 0 black;
 }
 
 #topologo {
@@ -47,44 +48,10 @@ header {
     top: 40px;
 }
 
-#botaoCat a{
-    padding: 10px 70px;
-    margin: 0;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
-    color: white;
-    background-color: #252525;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#botaoCat a:hover {
-    background-color: #1a1a1a;
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
 #botaoDes {
     position: absolute;
     left: 1170px;
     top: 40px;
-}
-
-#botaoDes a{
-    padding: 10px 70px;
-    margin: 0;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
-    color: white;
-    background-color: #252525;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#botaoDes a:hover {
-    background-color: #1a1a1a;
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #botaoPer {
@@ -93,7 +60,7 @@ header {
     top: 40px;
 }
 
-#botaoPer a{
+.botao-menu a {
     padding: 10px 70px;
     margin: 0;
     font-weight: bold;
@@ -104,7 +71,7 @@ header {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-#botaoPer a:hover {
+.botao-menu a:hover {
     background-color: #1a1a1a;
     box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -129,7 +96,7 @@ header {
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-#container {
+main {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -152,8 +119,8 @@ header {
     position: absolute;
     background-image: url('apresentacao-exemplo.jpg');
     background-size: cover;
-    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
     height: 100%;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -166,6 +133,7 @@ header {
     left: 50px;
     top: 40px;
     font-weight: bold;
+    text-shadow: 5px 5px 8px black;
 }
 
 #estiloText {
@@ -182,6 +150,7 @@ header {
     font-size: 20px;
     top: 620px;
     left: 50px;
+    text-shadow: 5px 5px 8px black;
 }
 
 #botaoCadastro a{
