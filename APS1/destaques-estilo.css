@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -132,42 +132,30 @@ main {
 }
 
 #linhatit1 {
-    position: absolute;
-    border-bottom: 1px solid white;
-    padding-left: 845px;
     left: 28%;
     top: 219px;
-    opacity: 0.5;
-    box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
 #linhatit2 {
-    position: absolute;
-    border-bottom: 1px solid white;
-    padding-left: 845px;
     left: 28%;
     top: 755px;
-    opacity: 0.5;
-    box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
 #linhatit3 {
-    position: absolute;
-    border-bottom: 1px solid white;
-    padding-left: 845px;
     left: 28%;
     top: 890px;
-    opacity: 0.5;
-    box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
 #linhatit4 {
+    left: 28%;
+    top: 1495px;
+}
+
+.linhatit {
     position: absolute;
     border-bottom: 1px solid white;
     padding-left: 845px;
-    left: 28%;
-    top: 1495px;
-    opacity: 0.4;
+    opacity: 0.5;
     box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
@@ -226,44 +214,35 @@ main {
     background-color: rgba(17, 17, 17, 0.5);
 }
 
-#destaques2-container p {
+.categoria {
     position: absolute;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
     font-size: 30px;
     font-weight: bold;
+}
+
+#destaques2-container p {
     left: 215px;
     top: 1380px;
 }
 
-#destaques2-container p2{
-    position: absolute;
-    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
-    font-size: 30px;
-    font-weight: bold;
+p2{
     left: 630px;
     top: 1410px;
 }
 
-#destaques2-container p3 {
-    position: absolute;
-    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
-    font-size: 30px;
-    font-weight: bold;
+p3 {
     left: 1075px;
     top: 1410px;
 }
 
-#destaques2-container p4 {
-    position: absolute;
-    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
-    font-size: 30px;
-    font-weight: bold;
+p4 {
     left: 1605px;
     top: 1410px;
 }
 
 #espaco {
-    height: 60px;
+    height: 80px;
 }
 
 footer {

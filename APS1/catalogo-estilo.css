@@ -92,14 +92,14 @@ header {
 main {
     display: block;
     width: 100%;
-    height: 1050px;
+    height: 1080px;
 }
 
 .menu-container {
     position: relative;
     background-color: #252525;
     width: 300px;
-    height: 1050px;
+    height: 1080px;
     margin: 0;
     padding: 0;
 }
@@ -131,14 +131,17 @@ input[type="checkbox"] {
     overflow: scroll;
 }
 
-#linha {
+.linha-div {
     position: absolute;
-    left: 20px;
-    top: 300px;
     opacity: 0.4;
     box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid;
     padding-right: 255px;
+}
+
+#linha {
+    left: 20px;
+    top: 300px;
 }
 
 #list-container ul li{
@@ -174,13 +177,8 @@ input[type="checkbox"] {
 }
 
 #linha2 {
-    position: absolute;
     left: -10px;
     top: 170px;
-    opacity: 0.4;
-    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid;
-    padding-right: 255px;
 }
 
 .menu-container p3 {
@@ -204,13 +202,8 @@ input[type="checkbox"] {
 }
 
 #linha3 {
-    position: absolute;
     left: -10px;
     top: 120px;
-    opacity: 0.4;
-    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid;
-    padding-right: 255px;
 }
 
 #ano option {
@@ -220,171 +213,100 @@ input[type="checkbox"] {
 }
 
 #cat-container{
-    overflow: scroll;
-    scroll-behavior: auto;
+    overflow-y: auto;
     position: absolute;
     left: 300px;
-    top: 80px;
+    top: 100px;
     width: 84%;
-    height: 116%;
+    height: 1060px;
     background-color: #1a1a1a;
 }
 
 #filmCat1 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo1.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 100px;
     top: 30px;
 }
 
 #filmCat2 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo2.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 475px;
     top: 30px;
 }
 
 #filmCat3 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo3.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 850px;
     top: 30px;
 }
 
 #filmCat4 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo4.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 1230px;
     top: 30px;
 }
 
 #filmCat5 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo5.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 100px;
     top: 480px;
 }
 
 #filmCat6 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo6.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 475px;
     top: 480px;
 }
 
 #filmCat7 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo7.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 850px;
     top: 480px;
 }
 
 #filmCat8 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
     background-image: url(filme-catalogo8.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 1230px;
     top: 480px;
 }
 
 #filmCat9 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     background-image: url(filme-catalogo9.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 100px;
     top: 930px;
 }
 
 #filmCat10 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     background-image: url(filme-catalogo10.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 475px;
     top: 930px;
 }
 
 #filmCat11 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     background-image: url(filme-catalogo11.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 850px;
     top: 930px;
 }
 
 #filmCat12 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     background-image: url(filme-catalogo12.jpg);
-    background-size: 300px 400px;
-    background-repeat: no-repeat;
     left: 1230px;
     top: 930px;
 }
 
-#filmCat1, #filmCat2, #filmCat3, #filmCat4, #filmCat5, #filmCat6, #filmCat7, #filmCat8, #filmCat9, #filmCat10, #filmCat11, #filmCat12 {
-    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
+.filmcat {
+    position: absolute;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 8px 15px 0 rgb(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     cursor: pointer;
 }
 
-#filmCat1:hover, #filmCat2:hover, #filmCat3:hover, #filmCat4:hover, #filmCat5:hover, #filmCat6:hover, #filmCat7:hover, #filmCat8:hover, #filmCat9:hover, #filmCat10:hover, #filmCat11:hover, #filmCat12:hover {
+.filmcat:hover {
     transition: 0.3s ease;
     opacity: 0.6;
 }
