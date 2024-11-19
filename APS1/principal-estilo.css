@@ -19,6 +19,20 @@ body {
     background-color: #1a1a1a;
 }
 
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e76047;
+    border-radius: 20px;
+    border: 3px solid #e76047;
+}
+
 header {
     background-color: #1a1a1a;
     display: flex;
@@ -112,7 +126,7 @@ main {
 .apresentacao-container {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 865px;
     overflow: hidden;
 }
 

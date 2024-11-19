@@ -3,30 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes</title>
+    <title>CineTupi</title>
+    <link rel="icon" href="cinetupi-logoABA.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="login-estilo.css"/>
 </head>
 <body>
     <header>
             <section>
-                <article id="menuTopo">
-                    <div>imagem</div>
-                    <div id="loginButton">login</div>
-                    <div>menu</div>
+                <article>
+                    <div>
+                        <a href="principal.html"><img src="cinetupi-logo.png" id="topologo"></a>
+                        <div id="botaoPri" class="botao-menu"><a href="principal.html">Principal</a></div>
+                        <div id="botaoDes" class="botao-menu"><a href="destaques.html">Destaques</a></div>
+                        <div id="botaoCat" class="botao-menu"><a href="catalogo.html">Catálogo</a></div>
+                    </div>
+                    <div id="botaoLogin"><a href="login.html">Login</a></div>
                 </article>
             </section>
     </header>
-    <main id="layout">
+    <main>
         <section>
-            <article id="res">
-                <div>Menu login</div>
+            <article id="login-container">
+                <div id="dados-container">
+                    <form id="table-container">
+                        <table border="1" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <p>Login</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="denominador" for="email">E-mail:</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="insert" type="email" id="email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="denominador" for="senha">Senha:</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="insert" type="password" id="senha" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="submit" id="botlog" value="Login">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p2>Esqueceu sua senha?</p2>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div id="separador"></div>
+                <div id="oplogin-container">
+
+                </div>
             </article>
         </section>
     </main>
-    <footer id="res2">
+    <footer>
         <section>
-            <article>
-                <div>elementos</div>
+            <article class="footer-container">
+                <img src="cinetupi-logo.png" id="logo">
+                <p>Seu espaço da Cultura Brasileira. Aproveite!</p>
+                <p2>&copy; CineTupi - Todos os direitos reservados.</p2>
+                <div id="botaoCadastrofooter"><a href="cadastro.html">Cadastre-se</a></div>
             </article>
         </section>
     </footer>
