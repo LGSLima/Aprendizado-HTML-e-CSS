@@ -13,12 +13,14 @@ Estrutura clara e organizada, com:
 - Rodapé.
 - Área de conteúdo.
 - 6 páginas de conteúdo.
+- Elementos como títulos, parágrafos, listas, links e formulários.
+- Flexbox
 
 ## Recursos 
 
 - HTML
 - CSS
 
-## Screenshots desktop mode
+## Screenshots 
 
-## Screenshots mobile mode
+![Página Principal Topo PNG](screenshots/principal.png)
