@@ -1,55 +1,364 @@
+* {
+    box-sizing: content-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
-    margin: auto;
-    padding: auto;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: 400;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    display: flex;
     width: 100%;
-    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e76047;
+    border-radius: 20px;
+    border: 3px solid #e76047;
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #1a1a1a;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    position: relative;
     width: 100%;
     height: 100px;
-    position: sticky;
+    padding: 0;
+    box-shadow: 0 4px 20px 0 black;
+}
+
+#topologo {
+    position: absolute;
+    left: 40px;
     top: 0;
-    z-index: 1000;
+    height: 100px;
+    width: 250px;
 }
 
-#menuTopo {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    height: auto;
-    align-items: center;
+#botaoPri {
+    left: 920px;
+    top: 40px;
 }
 
-#loginButton { 
-    margin-left: 700px;
+#botaoCat {
+    left: 1160px;
+    top: 40px;
 }
 
-#layout {
-    height: 900px;
+#botaoDes {
+    left: 1400px;
+    top: 40px;
+}
+
+.botao-menu {
+    position: absolute;
+}
+
+.botao-menu a {
+    padding: 10px 70px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #252525;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao-menu a:hover {
+    background-color: #1a1a1a;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
+}
+
+#botaoLogin a{
+    position: absolute;
+    left: 1650px;
+    top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 70px;
+    background-color: #5ba9bf;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#botaoLogin a:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #5198ac;
+}
+
+main {
+    height: 920px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#res {
-    background-color: brown;
-    width: 600px;
-    height: 800px;
+#dados-container {
+    border-radius: 5px;
+    background-color: #252525;
+    height: 860px;
+    width: 950px;
+    position: relative;
+    box-sizing: content-box;
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.6);
+}
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.altura {
+    height: 50px;
+}
+
+table {
+    border: 0;
+    width: 80%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+    padding: 0;
+    margin: 0;
+}
+
+p3 {
+    font-size: 12px;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+    border: 0;
+    border-top: 3px solid #1a1a1a;
+}
+
+.insert {
+    padding: 15px 250px 15px 15px;
+    border: 2px solid #1a1a1a;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    font-size: 15px;
+    color: white;
+    transition: border-color 0.4s ease;
+    outline: none;
+}
+
+.insert:focus {
+    border-color: white;
+}
+
+#genero {
+    padding: 15px 290px 15px 15px;
+}
+
+option {
+    font-weight: bold;
+}
+
+#data {
+    padding: 15px 300px 15px 15px;
+}
+
+#vencimento-cartao {
+    padding: 15px 27px 15px 15px;
+}
+
+#cvc {
+    padding: 15px 27px 15px 15px;
+}
+
+#pais {
+    padding: 15px 184px 15px 15px;
+}
+
+#contrato {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #e76047;
+}
+
+#icone-olho {
+    background-image: url('icone-olho.png');
+    width: 25px;
+    height: 25px;
+    left: 418px;
+    cursor: pointer;
+    top: 391px;
+}
+
+#icone2-olho {
+    background-image: url('icone-olho.png');
+    width: 25px;
+    height: 25px;
+    left: 875px;
+    cursor: pointer;
+    top: 391px;
+}
+
+#icone-cartao {
+    background-image: url(icone-cartao.png);
+    width: 120px;
+    height: 100px;
+    left: 340px;
+    top: 512px;
+}
+
+#icone-olho:hover {
+    background-image: url(icone-olho-cortado.png);
+    opacity: 0.8;
+}
+
+#icone2-olho:hover {
+    background-image: url(icone-olho-cortado.png);
+    opacity: 0.8;
+}
+
+.icone {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#botlog {
+    padding: 10px 70px;
+    background-color: #e76047;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#botlog:hover {
+    background-color: #db5a44;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
+}
+
+.icone-login {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.4s ease, opacity 0.4s ease;
+}
+
+.img-icone {
+    width: 50px;
+    height: 50px;
+}
+
+.icone-login:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.6);
+    opacity: 0.7;
+}
+
+#gg-login {
+    border: 2px solid #b60101;
+    color: #b60101;
+}
+
+#ap-login {
+    border: 2px solid black;
+    color: black;
+}
+
+span {
+    font-weight: bold;
 }
 
 footer {
-    height: 250px;
     width: 100%;
-    background-color: rgb(24, 24, 139);
+    height: 200px;
+    background-color: #0e0e0e;
+}
+
+.footer-container {
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    width: 350px;
+    height: 150px;
+}
+
+.footer-container p {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.footer-container p2 {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+
+#botaoCadastrofooter a{
+    position: absolute;
+    font-size: 20px;
+    top: 80px;
+    left: 1600px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 50px;
+    background-color: #e76047;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#botaoCadastrofooter a:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(-1px);
 }

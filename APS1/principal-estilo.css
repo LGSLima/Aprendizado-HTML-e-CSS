@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -347,7 +347,7 @@ main {
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
 }
 
-#plano3 scan {
+#plano3 span {
     position: absolute;
     left: 60px;
 }

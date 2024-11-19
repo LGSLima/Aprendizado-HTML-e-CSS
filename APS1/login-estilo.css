@@ -86,7 +86,6 @@ header {
 .botao-menu a:hover {
     background-color: #1a1a1a;
     box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #botaoLogin a{
@@ -100,12 +99,12 @@ header {
     padding: 10px 70px;
     background-color: #5ba9bf;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #botaoLogin a:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     background-color: #5198ac;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 main {
@@ -136,14 +135,14 @@ main {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: #252525;
-    height: 600px;
+    height: 550px;
     width: 600px;
     position: relative;
     box-sizing: content-box;
     box-shadow: -5px 0px 15px 2px rgba(0, 0, 0, 0.6);
 }
 
-#table-container {
+.table-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -152,15 +151,20 @@ main {
 }
 
 table {
-    width: 96%;
-    height: 90%;
+    border: 0;
+    width: 75%;
+    height: 79%;
+}
+
+table td {
+    height: 0;
+    width: 0;
 }
 
 #dados-container #botaoLogin {
     font-size: 15px;
     font-weight: bold;
     border-radius: 4px;
-    
     margin: 0;
     padding: 10px 70px;
     background-color: #5ba9bf;
@@ -174,7 +178,11 @@ table {
     transform: translateY(-1px);
 }
 
-p {
+.altura {
+    height: 60px;
+}
+
+h1 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -183,23 +191,62 @@ p {
     margin: 0;
 }
 
-p2 {
-    font-size: 10px;
+label {
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.denominador {
-    margin: 0 0 0 30px;
-    font-size: 20px;
+hr {
+    margin: 0;
+    width: 100%;
+    border: 0;
+    border-top: 3px solid #1a1a1a;
+}
+
+p2 {
+    font-size: 12px;
+}
+
+p3 {
+    font-size: 12px;
+}
+
+span a{
+    color: #e76047;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .insert {
-    margin: 10px 0 10px 70px;
-    padding: 20px 250px 0 0;
-    border: 0;
+    padding: 15px 260px 15px 15px;
+    border: 2px solid #1a1a1a;
     border-radius: 5px;
     background-color: #1a1a1a;
+    font-size: 15px;
     color: white;
-    text-align: center;
+    transition: border-color 0.4s ease;
+    outline: none;
+}
+
+.insert:focus {
+    border-color: white;
+}
+
+#icone-olho {
+    position: absolute;
+    background-image: url('icone-olho.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    left: 480px;
+    cursor: pointer;
+    top: 307px;
+}
+
+#icone-olho:hover {
+    background-image: url(icone-olho-cortado.png);
+    opacity: 0.9;
 }
 
 #botlog {
@@ -210,17 +257,73 @@ p2 {
     color: white;
     font-family: Poppins, sans-serif;
     font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#botlog:hover {
+    background-color: #5198ac;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
 }
 
 #oplogin-container {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #252525;
-    height: 600px;
+    height: 550px;
     width: 300px;
     position: relative;
     box-sizing: content-box;
     box-shadow: -5px 0px 15px 2px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#table2 {
+    height: 390px;
+}
+
+#table2 h1 {
+    height: 22px;
+}
+
+.icon-altura {
+    height: 150px;
+}
+
+.alternativa {
+    height: 25px;
+    font-weight: bold;
+}
+
+.icone-login {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 95px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.4s ease, opacity 0.4s ease;
+}
+
+.icone-login:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.6);
+    opacity: 0.7;
+}
+
+#gg-login {
+    background-image: url('g-icone.png');
+    border: 2px solid #b60101;
+}
+
+#ap-login {
+    background-image: url('a-icone.png');
+    border: 2px solid black;
 }
 
 footer {
