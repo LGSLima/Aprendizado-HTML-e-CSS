@@ -26,3 +26,19 @@ Estrutura clara e organizada, com:
 ![Página Principal Topo PNG](principal.png)
 
 ![Página Principal Meio PNG](principal-meio.png)
+
+![Página Principal Fundo PNG](principal-fundo.png)
+
+![Página Principal Rodapé PNG](principal-rodape.png)
+
+![Catálogo PNG](catalogo.png)
+
+![Destaque Topo PNG](destaques1.png)
+
+![Destaque Fundo PNG](destaques2.png)
+
+![Perfil PNG](perfil.png)
+
+![Entrar PNG](entrar.png)
+
+![Cadastro PNG](cadastro.png)
