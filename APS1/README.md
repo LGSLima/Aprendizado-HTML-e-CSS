@@ -23,4 +23,6 @@ Estrutura clara e organizada, com:
 
 ## Screenshots 
 
-![Página Principal Topo PNG](screenshots/principal.png)
+![Página Principal Topo PNG](principal.png)
+
+![Página Principal Meio PNG](principal-meio.png)
