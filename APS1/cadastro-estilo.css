@@ -139,7 +139,7 @@ main {
 
 table {
     border: 0;
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
@@ -179,7 +179,7 @@ hr {
 }
 
 #genero {
-    padding: 15px 290px 15px 15px;
+    padding: 15px 305px 15px 15px;
 }
 
 option {
@@ -187,19 +187,19 @@ option {
 }
 
 #data {
-    padding: 15px 300px 15px 15px;
+    padding: 15px 316px 15px 15px;
 }
 
 #vencimento-cartao {
-    padding: 15px 27px 15px 15px;
+    padding: 15px 23px 15px 15px;
 }
 
 #cvc {
-    padding: 15px 27px 15px 15px;
+    padding: 15px 23px 15px 15px;
 }
 
 #pais {
-    padding: 15px 184px 15px 15px;
+    padding: 15px 198px 15px 15px;
 }
 
 #contrato {
@@ -221,7 +221,7 @@ option {
     background-image: url('icone-olho.png');
     width: 25px;
     height: 25px;
-    left: 875px;
+    left: 890px;
     cursor: pointer;
     top: 391px;
 }

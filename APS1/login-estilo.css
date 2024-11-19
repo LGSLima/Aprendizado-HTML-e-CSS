@@ -241,7 +241,7 @@ span a{
     height: 25px;
     left: 480px;
     cursor: pointer;
-    top: 307px;
+    top: 59%;
 }
 
 #icone-olho:hover {
@@ -274,29 +274,29 @@ span a{
     background-color: #252525;
     height: 550px;
     width: 300px;
-    position: relative;
-    box-sizing: content-box;
     box-shadow: -5px 0px 15px 2px rgba(0, 0, 0, 0.6);
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#table2 {
-    height: 390px;
+#oplogin-container h1 {
+    position: absolute;
+    top: 36.5%;
+    left: 65.5%;
 }
 
-#table2 h1 {
-    height: 22px;
+#oplogin-container p {
+    position: absolute;
+    left: 62.5%;
+    top: 41%;
 }
 
-.icon-altura {
-    height: 150px;
-}
-
-.alternativa {
-    height: 25px;
-    font-weight: bold;
+#oplogin-container hr {
+    position: absolute;
+    top: 41.8%;
+    left: 60%;
+    width: 260px;
 }
 
 .icone-login {
@@ -319,11 +319,17 @@ span a{
 #gg-login {
     background-image: url('g-icone.png');
     border: 2px solid #b60101;
+    position: absolute;
+    left: 64%;
+    top: 47%;
 }
 
 #ap-login {
     background-image: url('a-icone.png');
     border: 2px solid black;
+    position: absolute;
+    left: 64%;
+    top: 60%;
 }
 
 footer {
