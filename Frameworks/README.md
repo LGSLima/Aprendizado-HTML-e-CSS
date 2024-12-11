@@ -15,8 +15,8 @@ Autonomia: Explorar de maneira independente as funcionalidades do Bootstrap, tom
 
 ## Participantes do Projeto
 
-- Expedita
-- Jonnattan
+- Expedita - [github](https://github.com/ExpeditaNogueira)
+- Jonnattan - [github](https://github.com/JonnattanSS)
 - Lucas Goebel - [github](https://github.com/lgoebel)
 - Luís Lima - [github](https://github.com/LGSLima)
 
