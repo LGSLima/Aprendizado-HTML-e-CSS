@@ -36,7 +36,8 @@ Projetos pequenos para aplicar o conhecimento adquirido, como:
 - Galerias de imagens
 
 ## Licença
-Este repositório está disponível sob a licença MIT.
+
+Este projeto está licenciado sob a MIT License.
 
 ##
 

@@ -127,3 +127,7 @@ Cada grupo apresentará seu minicurso sobre Bootstrap com uma duração entre 1h
 # Conclusão
 
 Este minicurso permite a criação e aprendizagem sobre sites responsivos e interativos, utilizando um framework que oferece recursos interessantes e prontos para uso. Além disso, o aprendizado envolve habilidades de pesquisa, trabalho em equipe, criação de material didático e habilidades de comunicação, preparando os alunos para projetar soluções práticas e eficientes no desenvolvimento web.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.

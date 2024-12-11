@@ -42,3 +42,7 @@ Estrutura clara e organizada, com:
 ![Entrar PNG](entrar.png)
 
 ![Cadastro PNG](cadastro.png)
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
