@@ -104,11 +104,25 @@ O grupo criará um material didático abrangente para o minicurso sobre o Bootst
 - Slides de Apresentação: Para explicar o que é o Bootstrap e como usá-lo.
 - Exercícios Práticos: Atividades interativas para aplicar o Bootstrap em exemplos reais.
 - Demonstrações ao Vivo: Exemplo de como implementar o Bootstrap em um projeto real.
-- Materiais Complementares: Vídeos, artigos ou links para aprofundamento.
+
+[Slide de Apresentação](https://www.canva.com/design/DAGXtiV-I8E/i544_ftIgBzOp20LMlBEGQ/edit?utm_content=DAGXtiV-I8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## Sites e artigos
+
+Sites e artigos que foram usados como material de pesquisa:
+
+- Alura: Artigo sobre o framework, origem e suas definições do Bootstrap. [Acesse](https://www.alura.com.br/artigos/bootstrap).
+- Documentação Oficial do Bootstrap: A principal fonte de informação para as explicações e demonstrações de funcionalidades e componentes do Bootstrap. [Acesse](https://getbootstrap.com).
+- Home Host: Artigo sobre definições gerais, vantagens e desvantagens e considerações sobre a utilização do mesmo. [Acesse](https://www.homehost.com.br/blog/tutoriais/o-que-e-bootstrap/).
+- Trybe: Artigo sobre responsividade, trazendo definições sobre o termo e argumentações sobre o uso da técnica. [Acesse](https://blog.betrybe.com/tecnologia/responsividade/).
+- Hashtag: Artigo sobre as definições do framework, sobre sua utilização em projetos, importância, vantagens e desvantagens e um breve tutorial sobre como iniciar projetos com o mesmo. [Acesse](https://www.hashtagtreinamentos.com/bootstrap-o-que-e#como-usar-o-bootstrap-na-pratica).
+- Napoleon: Breve artigo sobre o sistema de layout do Bootstrap Grid descrevendo sua funcionalidade, mostrando benefícios e dicas sobre o uso. [Acesse](https://napoleon.com.br/glossario/o-que-e-bootstrap-grid/).
+- Loja de Temas: Artigo sobre a origem do Framework, além de seus recursos, características, estrutura e componentes. [Acesse](https://www.lojadetemas.com.br/bootstrap/).
+- Mundo JS: Artigo sobre as mudanças do Bootstrap 5 em relação com sua versão anterior, mostrando novas funcionalidades, funcionalidades retiradas do framework, entre outras mudanças. [Acesse](https://www.mundojs.com.br/2020/09/11/bootstrap-5-mudancas/).
 
 ## Apresentação do Minicurso
 
-Cada grupo apresentará seu minicurso sobre Bootstrap com uma duração entre 1h10min e 2h, explicando suas funcionalidades, demonstrando exemplos práticos e respondendo perguntas da turma.
+Cada grupo apresentará seu minicurso sobre Bootstrap com uma duração entre 1h10min e 2h, explicando suas funcionalidades, demonstrando exemplos práticos, executando exercícios juntamente à turma e respondendo perguntas pertinentes.
 
 # Conclusão
 
