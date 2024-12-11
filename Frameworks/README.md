@@ -15,10 +15,10 @@ Autonomia: Explorar de maneira independente as funcionalidades do Bootstrap, tom
 
 ## Participantes do Projeto
 
-- Expedita - [github](https://github.com/ExpeditaNogueira)
-- Jonnattan - [github](https://github.com/JonnattanSS)
-- Lucas Goebel - [github](https://github.com/lgoebel)
-- Luís Lima - [github](https://github.com/LGSLima)
+- Expedita - [Github](https://github.com/ExpeditaNogueira)
+- Jonnattan - [Github](https://github.com/JonnattanSS)
+- Lucas Goebel - [Github](https://github.com/lgoebel)
+- Luís Lima - [Github](https://github.com/LGSLima)
 
 # Etapas do Minicurso
 
