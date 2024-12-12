@@ -2,7 +2,11 @@
 
 ## Descrição do Projeto
 
-Este é um projeto de aplicação web composta por 6 páginas, desenvolvido utilizando três frameworks CSS populares: Bootstrap, Bulma e Materialize. A aplicação é totalmente responsiva e adaptável a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente e agradável em dispositivos móveis e desktops. O projeto segue uma estrutura organizada com cabeçalho, conteúdo principal e rodapé, e foi projetado para ser facilmente escalável e de fácil manutenção.
+Este é um projeto de aplicação web composta por 6 páginas, desenvolvido utilizando um dos três frameworks CSS populares: Bootstrap, Bulma e Materialize. A aplicação é totalmente responsiva e adaptável a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente e agradável em dispositivos móveis e desktops. O projeto segue uma estrutura organizada com cabeçalho, conteúdo principal e rodapé, e foi projetado para ser facilmente escalável e de fácil manutenção.
+
+Framework escolhido:
+
+- Bootstrap.
 
 ## Desenvolvedores do Projeto
 
@@ -52,18 +56,6 @@ O projeto é composto por 6 páginas principais, cada uma contendo uma estrutura
 - **Sistema de Grid**: Utilizado para criar layouts fluidos e responsivos, garantindo que a aplicação seja facilmente visualizada em dispositivos móveis e desktops.
 - **Navbar**: O menu de navegação foi desenvolvido com o componente navbar do Bootstrap, o que garante um menu responsivo e amigável para diferentes dispositivos.
 - **Botões e Cards**: Estilização de botões e cartões com as classes predefinidas de Bootstrap, proporcionando consistência visual e interatividade no site.
-
-**Bulma**
-
-- **Columns**: Utilizado para criar layouts baseados em colunas, facilitando a distribuição do conteúdo de forma clara e responsiva.
-- **Cards**: O componente de cards do Bulma foi utilizado em várias seções, como na página "Sobre Nós", para exibir informações de forma bem estruturada e visualmente agradável.
-- **Typography**: Bulma ajudou na estilização de títulos e textos, garantindo uma tipografia limpa e legível.
-
-**Materialize**
-
-- **Componentes de Interface**: O Materialize foi utilizado para criar botões flutuantes, modais e formulários com estilo moderno e interação intuitiva.
-- **Formulários**: A estilização dos formulários foi feita com Materialize, proporcionando campos de entrada com validação visual e interações rápidas e fáceis.
-- **Cards e Botões**: Utilizados para exibir informações de maneira organizada, com animações e transições para uma navegação fluida.
 
 ## Estrutura do Código
 
